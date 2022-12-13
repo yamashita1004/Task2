@@ -32,6 +32,8 @@ end
     flash[:notice] = "Book was successfully created."
   end
 
+
+
   def destroy
     book = Book.find(params[:id])
     book.destroy
